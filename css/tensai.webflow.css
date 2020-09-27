@@ -2385,6 +2385,7 @@ figcaption {
 }
 
 .grid-4 {
+  max-width: 950px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
@@ -2638,6 +2639,27 @@ figcaption {
   display: block;
 }
 
+.use-cases {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 30px 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
   .navigation {
     z-index: 999;
@@ -2854,8 +2876,8 @@ figcaption {
     background-color: #7e3ccf;
   }
   .grid-3 {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -2930,6 +2952,12 @@ figcaption {
     margin-right: 0px;
     margin-bottom: 60px;
   }
+  ._2-row-image.cc-bottom {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
   ._2-row-image.cc-row-spacing {
     margin-right: 0px;
   }
@@ -2953,6 +2981,21 @@ figcaption {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+  .row.cc-bottom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   ._2-row-action-text {
     margin-top: 50px;
@@ -3076,6 +3119,10 @@ figcaption {
   .contact-info-text {
     width: 100%;
   }
+  .grid-3 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
   .div-block-5 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3088,6 +3135,27 @@ figcaption {
     padding-bottom: 90px;
   }
   .teaminfo {
+    padding-top: 60px;
+  }
+  .grid-4 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .formrow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .div-block-11 {
+    width: 400px;
+  }
+  .use-cases {
     padding-top: 60px;
   }
 }
@@ -3134,6 +3202,9 @@ figcaption {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+  ._2-row-image.cc-bottom {
+    display: block;
   }
   ._2-row-image.cc-row-spacing {
     display: block;
@@ -3258,6 +3329,15 @@ figcaption {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .image-5 {
+    max-width: 200px;
+  }
+  .image-6 {
+    max-width: 200px;
+  }
+  .image-7 {
+    max-width: 200px;
+  }
   .div-block-8 {
     display: block;
     width: 100%;
@@ -3287,6 +3367,9 @@ figcaption {
   }
   .div-block-9 {
     margin-left: 0px;
+  }
+  .div-block-11 {
+    width: 200px;
   }
 }
 
